@@ -1,0 +1,17 @@
+# Secrets - never commit this
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Manim generated output (videos and generated scripts) - don't commit these
+generated/
+media/
+
+# OS/editor junk
+.DS_Store
+.vscode/
+.idea/
